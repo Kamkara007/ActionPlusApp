@@ -43,7 +43,7 @@ gem "redis", "~> 4.0"
 ############ projet gems  ################"
 gem 'friendly_id', '~> 5.4', '>= 5.4.2'
 gem 'devise', '~> 4.8', '>= 4.8.1'
-
+gem 'bootstrap_form', '~> 5.0'
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

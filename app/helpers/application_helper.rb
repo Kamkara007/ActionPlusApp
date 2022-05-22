@@ -20,8 +20,8 @@ module ApplicationHelper
     end
 
     ### Add notice
-    def add_notice
-        render "layouts/flash/notices"
+    def render_notices
+        render "shared/flash/notices"
     end
     
     #Sign in and up anywhere on app

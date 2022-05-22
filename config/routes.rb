@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
   root to:'home#index'
   
+  # MEMVERSHIP
+  get "adherer", to:'membership#index'
+  get "members-list", to:"membership#memberslist"
+  get "beaction", to:"membership#beaction"
+
+  #DASHBOARD
+  get "dashboard", to:'dashboard#index'
+  get "parametrage", to:'dashboard#home'
   
   devise_for  :users,
      :path => '',

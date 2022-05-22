@@ -18,5 +18,10 @@ module ApplicationHelper
     def keywords
     "Faire un don, don, association, ong, donner, don en ligne, don sécurisé, soutenir, donation, make a donation"
     end
+
+    ### Add notice
+    def add_notice
+        render "layouts/flash/notices"
+    end
     
 end

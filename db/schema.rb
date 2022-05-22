@@ -43,9 +43,10 @@ ActiveRecord::Schema[7.0].define(version: 2022_05_22_173449) do
     t.string "full_name"
     t.string "country"
     t.string "country_code"
+    t.string "full_contact"
     t.string "gender"
     t.string "slug"
-    t.string "membership_category"
+    t.string "category"
     t.boolean "terms"
     t.boolean "newletter"
     t.datetime "created_at", null: false
